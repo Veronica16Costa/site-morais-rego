@@ -4,20 +4,31 @@
 }
 
 header {    
-    background-color: rgb(240, 240, 54);
+    background-color: rgb(255, 202, 29);
     color: rgb(201, 38, 38);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px;
 }
-
     .cabecalho-imagem{
          width: 10%; 
     }
-
     .cabecalho-lista-item{
         display: inline-block;
         font-size: 24px;
         margin: 0 16px
-    }
+}
+     .escola-imagem{
+        width: 25%;
+     }
+     .escola{
+        background-image: linear-gradient(rgb(255, 203, 33),
+         rgb(255, 134, 21));
+         color: rgb(13, 13, 82);
+         display: flex;
+     }
+     .escola-div-conteudo{
+        width: 45%;
+
+     }
