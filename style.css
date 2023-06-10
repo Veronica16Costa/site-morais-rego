@@ -3,13 +3,16 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header {    
-    background-color: rgb(255, 202, 29);
-    color: rgb(201, 38, 38);
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px;
+    padding: 24px 0;
 }
     .cabecalho-imagem{
          width: 10%; 
@@ -20,15 +23,51 @@ header {
         margin: 0 16px
 }
      .escola-imagem{
-        width: 25%;
+        width: 40%;
      }
      .escola{
-        background-image: linear-gradient(rgb(255, 203, 33),
-         rgb(255, 134, 21));
+        background-image: linear-gradient(rgb(255, 230, 0),
+         rgb(255, 136, 0));
          color: rgb(13, 13, 82);
          display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 24px 0;
      }
      .escola-div-conteudo{
         width: 45%;
-
      }
+     .escola-titulo{
+        padding: 20px 0;
+    }
+    .escola-titulo{
+        padding: 50px 0;
+    }
+    .estudante-imagem{
+        width: 120px;
+    }
+    .estudante-icone{
+        width: 24px;
+    }
+    .estudante-div{
+        text-align: center;
+    }
+    .estudante-titulo{
+        text-align: center;
+        padding: 50px;
+    }
+    .estudante-todos{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20% ;
+
+    }
+    .rodape{
+       background-color: rgb(255, 136, 0);
+       text-align: center;
+    }
+
+    .rodape-imagem{
+        height: 60px;
+        padding: 12px 0;
+        
+    }
