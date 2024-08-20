@@ -8,7 +8,7 @@ body{
 }
 header {    
     background-color: rgb(255, 230, 0);
-    color: rgb(31, 172, 13);
+    color: rgb(8, 8, 8);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,7 +27,7 @@ header {
      }
      .escola{
         background-image: linear-gradient(rgb(255, 230, 0),
-         rgb(255, 136, 0));
+         rgb(20, 161, 7));
          color: rgb(13, 13, 82);
          display: flex;
          justify-content: center;
